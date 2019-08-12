@@ -36,8 +36,8 @@ function toggleMenu() {
 }
 
 // to prevent main div from scrollng when menu is visible
-menu.addEventListener('touchmove', function (e) {
+// menu.addEventListener('touchmove', function (e) {
 
-    e.preventDefault();
+//     e.preventDefault();
 
-}, false);
+// }, false);

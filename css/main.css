@@ -66,8 +66,7 @@
       background-size: cover;
       background-position: center;
       border-radius: 50%;
-      border: solid 3px #eece1a;
-      margin: 0.5rem; }
+      border: solid 3px #eece1a; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all .5s ease-out; }
