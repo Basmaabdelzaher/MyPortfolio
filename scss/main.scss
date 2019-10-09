@@ -59,6 +59,7 @@ main
 
     .icons
     {
+        text-align: center;
         margin-top: 1rem;
         a {
             padding: 0.4rem;
@@ -100,6 +101,9 @@ main
         grid-area: bioimage;
         height: 250px;
         width: 250px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(../img/portrait/laptop.jpg);
         margin: auto;
         border-radius: 50%;
         border: $secondary-color 3px solid;
@@ -169,10 +173,34 @@ main
     display: grid;
     grid-gap: 0.7rem;
     grid-template-columns: repeat(3, 1fr);
-    img 
+    .projectImage
     {
         width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
         border: #fff solid;
+
+        &-1
+        {
+            background-image: url(../img/projects/realo.jpg);
+        }
+
+        &-2 {
+            background-image: url(../img/projects/topsy.jpg);
+        }
+
+        &-3 {
+            background-image: url(../img/projects/social.png);
+        }
+
+        &-4 {
+            background-image: url(../img/projects/parallax.jpg);
+        }
+
+        &-5 {
+            background-image: url(../img/projects/topsy.jpg);
+        }
 
         &:hover
         {
