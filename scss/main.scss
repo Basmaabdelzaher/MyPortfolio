@@ -181,6 +181,11 @@ main
         background-position: center;
         border: #fff solid;
 
+        &-0
+        {
+            background-image: url(../img/projects/intro.png);
+        } 
+
         &-1
         {
             background-image: url(../img/projects/realo.jpg);

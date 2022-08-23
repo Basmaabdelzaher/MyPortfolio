@@ -218,6 +218,8 @@ main {
     background-size: cover;
     background-position: center;
     border: #fff solid; }
+    .projects .projectImage-0 {
+      background-image: url(../img/projects/intro.png); }
     .projects .projectImage-1 {
       background-image: url(../img/projects/realo.jpg); }
     .projects .projectImage-2 {
