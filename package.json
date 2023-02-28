@@ -11,5 +11,13 @@
   "dependencies": {
     "node-sass": "^4.12.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Basmaabdelzaher/MyPortfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Basmaabdelzaher/MyPortfolio/issues"
+  },
+  "homepage": "https://github.com/Basmaabdelzaher/MyPortfolio#readme"
 }

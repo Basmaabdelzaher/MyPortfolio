@@ -181,6 +181,16 @@ main
         background-position: center;
         border: #fff solid;
 
+        &-medical
+        {
+            background-image: url(../img/projects/medical.png);
+        } 
+
+        &-myReads
+        {
+            background-image: url(../img/projects/myReads.png);
+        } 
+
         &-0
         {
             background-image: url(../img/projects/intro.png);

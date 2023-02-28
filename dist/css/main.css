@@ -167,7 +167,9 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'skill1 skill2 skill3' 'skill4 skill5 skill6';
+  grid-template-areas: 'bioimage bio bio'
+ 'skill1 skill2 skill3'
+ 'skill4 skill5 skill6';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -218,6 +220,10 @@ main {
     background-size: cover;
     background-position: center;
     border: #fff solid; }
+    .projects .projectImage-medical {
+      background-image: url(../img/projects/medical.png); }
+    .projects .projectImage-myReads {
+      background-image: url(../img/projects/myReads.png); }
     .projects .projectImage-0 {
       background-image: url(../img/projects/intro.png); }
     .projects .projectImage-1 {
@@ -317,7 +323,14 @@ main {
       height: 150px;
       width: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'skill1' 'skill2' 'skill3' 'skill4' 'skill5' 'skill6';
+    grid-template-areas: 'bioimage'
+ 'bio'
+ 'skill1'
+ 'skill2'
+ 'skill3'
+ 'skill4'
+ 'skill5'
+ 'skill6';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
