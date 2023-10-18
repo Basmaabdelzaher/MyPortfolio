@@ -181,9 +181,19 @@ main
         background-position: center;
         border: #fff solid;
 
+        &-e-store
+        {
+            background-image: url(../img/projects/e-store.png);
+        } 
+
         &-medical
         {
             background-image: url(../img/projects/medical.png);
+        } 
+
+        &-todo
+        {
+            background-image: url(../img/projects/todo.png);
         } 
 
         &-myReads

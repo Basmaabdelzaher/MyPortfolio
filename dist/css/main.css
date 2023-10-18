@@ -220,8 +220,12 @@ main {
     background-size: cover;
     background-position: center;
     border: #fff solid; }
+    .projects .projectImage-e-store {
+      background-image: url(../img/projects/e-store.png); }
     .projects .projectImage-medical {
       background-image: url(../img/projects/medical.png); }
+    .projects .projectImage-todo {
+      background-image: url(../img/projects/todo.png); }
     .projects .projectImage-myReads {
       background-image: url(../img/projects/myReads.png); }
     .projects .projectImage-0 {
